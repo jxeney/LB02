@@ -1,0 +1,23 @@
+* {
+    color: black;
+    background: ??;
+}
+
+header, nav, aside, footer { display: ??; }
+
+article {
+  border: 0;
+  padding: 5px;
+  margin:0;
+  width: ??;
+  font-size: 130%;
+}
+
+article img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 3px solid white;
+}
+
+main { width: 70%; }

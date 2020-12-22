@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Eine Version für 480 Pixel (beispielsweise Smartphones) */
+@media only screen and (max-width: 480px) {
+    html {
+        min-height: 75%;
+        background-size: auto auto;
+        background-image: url("/Users/Jenny/Desktop/ue_responsive_02/img/background.jpg");
+        background-repeat: no-repeat;
+    }
+
+    #wrapper {
+        margin: 5px auto;
+        width: ??;
+    }
+
+    nav h3 {
+        display: block;
+    }
+
+    nav ul li:first-child {
+        margin-left: 20px;
+        border-left: none;
+        list-style: none;
+        display: block;
+    }
+
+    #sidebar {
+        padding: ??;
+        width: ??;
+        background-color: beige;
+        margin: 0 0 5px 0;
+    }
+
+    main {
+        width: 100%;
+    }
+}

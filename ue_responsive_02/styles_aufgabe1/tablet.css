@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* Eine Version für 768 Pixel (beispielsweise Tablet im Hochformat) */
+@media only screen and (max-width: 768px) {
+    html {
+        background-image: url("/Users/Jenny/Desktop/ue_responsive_02/img/background.jpg");
+    }
+
+  #wrapper {
+    width: 100%;
+  }
+
+  #mainnav {
+    padding: auto;
+    text-align:center;
+    width: 2%;
+    background-color: beige;
+  }
+
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: block;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    padding: 3px 10px;
+    border-left: 1px solid #000;
+    list-style: none;
+    display: block;
+  }
+
+  nav h3 {
+    margin: 0 10px 0 0;
+    display: ??;
+  }
+
+  #sidebar {
+    float: none;
+    margin-top: 5px;
+    padding: auto auto;
+    width: 2%;
+  }
+
+  main {
+    float: none;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+  }
+
+  article {
+    width: 98%;
+  }
+
+}
